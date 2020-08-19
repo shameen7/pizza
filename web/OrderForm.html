@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Pizza Wonder</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1> Order your pizza</h1>
+        <form method ="POST" action="PizzaOrder">
+            <table>
+                <tr>
+                    <td>Small</td>
+                    <td><input type="radio" name="size" value="small"></td>
+                </tr>
+                <tr>
+                    <td>Medium</td>
+                    <td><input type="radio" name="size" value="Medium"></td>
+                </tr>
+                <tr>
+                    <td>Large</td>
+                    <td><input type="radio" name="size" value="Large"></td>
+                </tr>
+                <tr>
+                    <td> Flavour of the Pizza</td>
+                    <td><select name="flavour">
+
+                            <option value="Cheese Pizza">Cheese Pizza</option>
+                            <option value="Chicken Pizza">Chicken Pizza</option>
+                            <option value="Seafood Pizza">Seafood Pizza</option>
+                            <option value="Fish Pizza">Fish Pizza</option>
+
+                        </select></td>
+                </tr>
+                <tr>
+                    <td>Quantity</td>
+                    <td><input type="text" name="quantity"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="SUBMIT"></td>
+                    <td><input type="reset" value="RESET"</td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
